@@ -1,5 +1,5 @@
-#creating virtual environment for python to isolate projects
-# ----------------------------------------------------------
+# creating virtual environment for python to isolate projects
+# -----------------------------------------------------------
 pip install virtualenv - Installing globally
 virtualenv venv - Creating virtual environment
 env1/Scripts/activate - Activate virtual environment 
