@@ -13,6 +13,8 @@ If execution policy is restricted
 
     Get-ExecutionPolicy
     Set-ExecutionPolicy RemoteSigned -Scope CurrentUser
+    Get-ExecutionPolicy
+    
 
 ### Django commands 
 * pip install Django : Installing Django
