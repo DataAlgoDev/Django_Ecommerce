@@ -10,9 +10,10 @@ Activate virtual environment 'env1'
     env1/Scripts/activate
 
 If execution policy is restricted 
-    * Get-ExecutionPolicy Set-ExecutionPolicy-ExecutionPolicy
 
-    * ExecutionPolicy RemoteSigned -Scope CurrentUser
+    Get-ExecutionPolicy Set-ExecutionPolicy-ExecutionPolicy
+
+    ExecutionPolicy RemoteSigned -Scope CurrentUser
 
 ### Django commands 
 * pip install Django : Installing Django
