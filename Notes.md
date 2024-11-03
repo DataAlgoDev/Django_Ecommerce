@@ -1,6 +1,5 @@
-<html>
 ### Creating virtual environment for python (To isolate different projects)
-<span style="color: #dee053;">Installing virtual environment globally</span>
+$\textcolor{yellow}{Installing virtual environment globally}$
 
     pip install virtualenv
 *Creating virtual environment*
@@ -30,4 +29,3 @@
 
     python manage.py runserver
 
-<html>
