@@ -11,8 +11,8 @@ Activate virtual environment 'env1'
 
 If execution policy is restricted 
 
-    Get-ExecutionPolicy Set-ExecutionPolicy-ExecutionPolicy
-
+    Get-ExecutionPolicySet-ExecutionPolicy-ExecutionPolicy
+    Set-ExecutionPolicy-ExecutionPolicy
     ExecutionPolicy RemoteSigned -Scope CurrentUser
 
 ### Django commands 
