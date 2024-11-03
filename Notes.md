@@ -1,5 +1,5 @@
 ### Creating virtual environment for python (To isolate different projects)
-<span style="color: #FF5733;">Installing virtual environment globally</span>
+*Installing virtual environment globally*
 
     pip install virtualenv
 *Creating virtual environment*
