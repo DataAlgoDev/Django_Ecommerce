@@ -1,15 +1,18 @@
 ### Creating virtual environment for python to isolate projects
-1. pip install virtualenv - Installing globally
+*pip install virtualenv : Installing globally
 
-2. virtualenv venv - Creating virtual environment
+*virtualenv venv : Creating virtual environment
 
-3. env1/Scripts/activate - Activate virtual environment ( if execution policy is restricted : Get-ExecutionPolicy Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope CurrentUser )
-
-4. pip install Django : Installing Django
+*env1/Scripts/activate : Activate virtual environment 
+(if execution policy is restricted : 
+    *Get-ExecutionPolicy Set-ExecutionPolicy-ExecutionPolicy
+    *ExecutionPolicy RemoteSigned -Scope CurrentUser
+)
 
 ### Django commands 
+*pip install Django : Installing Django
 
-django-admin startproject ecommerce : starting a project by creating a repo
+*django-admin startproject ecommerce : starting a project by creating a repo
 
-python manage.py runserver : Run the manage.py file inside project repo to run Django server
+*python manage.py runserver : Run the manage.py file inside project repo to r*un Django server
 
