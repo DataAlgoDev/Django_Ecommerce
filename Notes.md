@@ -21,7 +21,7 @@
 
     pip install Django
 
-*Creating a project folder and initg Django inside* 
+*Creating a project folder and initing Django inside* 
 
     django-admin startproject ecommerce
 
