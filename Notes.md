@@ -1,9 +1,13 @@
-### Creating virtual environment for python to isolate projects
-    pip install virtualenv : Installing globally
+### Creating virtual environment for python (To isolate different projects)
+Installing virtual environment globally
 
-    virtualenv venv : Creating virtual environment
+    pip install virtualenv
+Creating virtual environment
 
-    env1/Scripts/activate : Activate virtual environment 
+    virtualenv venv
+Activate virtual environmentenv1
+
+    env1/Scripts/activate
 
 (if execution policy is restricted : 
     * Get-ExecutionPolicy Set-ExecutionPolicy-ExecutionPolicy
