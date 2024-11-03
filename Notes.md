@@ -5,11 +5,11 @@ Installing virtual environment globally
 Creating virtual environment
 
     virtualenv venv
-Activate virtual environmentenv1
+Activate virtual environment 'env1'
 
     env1/Scripts/activate
 
-(if execution policy is restricted : 
+(if execution policy is restricted 
     * Get-ExecutionPolicy Set-ExecutionPolicy-ExecutionPolicy
 
     * ExecutionPolicy RemoteSigned -Scope CurrentUser
