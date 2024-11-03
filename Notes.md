@@ -1,5 +1,5 @@
 ### Creating virtual environment for python (To isolate different projects)
-$\textcolor{yellow}{Installing\ virtual\ environment\ globally}$
+<span style="color: #FF5733;">Installing virtual environment globally</span>
 
     pip install virtualenv
 *Creating virtual environment*
