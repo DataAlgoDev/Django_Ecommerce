@@ -29,3 +29,8 @@
 
     python manage.py runserver
 
+*Creatig a Django app (python package) within a project
+
+    django-admin startapp store
+>>Add this app name to INSTALLED_APPS in settings.py 
+>>Define models for the app in models.py
