@@ -25,7 +25,7 @@ SECRET_KEY = 'django-insecure-z#9u0r@2m#ia=l4_vfcbg=xg%=eodh!4df3%x*%-*dlxbbp335
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['*']
 
 
 # Application definition
@@ -38,7 +38,7 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
 
-    'store',    # Store application
+    'store',    # Store app Django
 ]
 
 MIDDLEWARE = [
@@ -123,7 +123,7 @@ STATICFILES_DIRS = [BASE_DIR / 'static']
 
 MEDIA_URL = '/media/'
 
-MEDIA_ROOT = [BASE_DIR / 'static/media']
+MEDIA_ROOT = BASE_DIR / 'static/media'
 
 # Default primary key field type
 # https://docs.djangoproject.com/en/5.1/ref/settings/#default-auto-field
