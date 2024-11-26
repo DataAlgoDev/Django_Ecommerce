@@ -35,3 +35,21 @@
 
 1. Add this app name to INSTALLED_APPS in settings.py 
 2. Define models for the app in models.py
+
+*Creating migrations package*
+
+    python manage.py makemigrations
+
+*Performing migrations*
+
+    python manage.py migrate
+
+3. Static files path in settings
+
+STATICFILES_DIRS = [BASE_DIR/'static']
+
+MEDIA_ROOT = [BASE_DIR/'static/media']
+
+*Creating super user for djangio admin*
+
+    python manage.py createsuperuser
