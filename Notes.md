@@ -33,5 +33,5 @@
 
     django-admin startapp store
 
-1.Add this app name to INSTALLED_APPS in settings.py 
-2.Define models for the app in models.py
+1. Add this app name to INSTALLED_APPS in settings.py 
+2. Define models for the app in models.py
